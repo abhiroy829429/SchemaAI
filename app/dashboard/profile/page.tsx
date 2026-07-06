@@ -65,10 +65,7 @@ export default function ProfilePage() {
       const res = await fetch("/api/profile", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...data,
-          annualIncome: data.annualIncome ? Number(data.annualIncome) : undefined,
-        }),
+        body: JSON.stringify(data),
       });
       const result = await res.json();
       if (result.success) {
