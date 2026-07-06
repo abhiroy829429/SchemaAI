@@ -6,7 +6,7 @@ export const profileSchema = z.object({
   dateOfBirth: z.string().optional(),
   gender: z.enum(["male", "female", "other"]).optional(),
   phone: z.string().min(10, "Valid phone number required").optional(),
-  annualIncome: z.union([z.string(), z.number()]).optional().transform((val) => typeof val === 'string' ? Number(val) : val),
+  annualIncome: z.coerce.number().min(0).optional(),
   occupation: z.enum(OCCUPATIONS as unknown as [string, ...string[]]).optional(),
   education: z.enum(EDUCATION_LEVELS as unknown as [string, ...string[]]).optional(),
   category: z.enum(SOCIAL_CATEGORIES as unknown as [string, ...string[]]).optional(),

@@ -24,7 +24,7 @@ export default function ProfilePage() {
   const [saving, setSaving] = useState(false);
   const [completion, setCompletion] = useState(0);
 
-  const { register, handleSubmit, reset, watch, setValue } = useForm<ProfileForm>({
+  const { register, handleSubmit, reset, watch, setValue } = useForm({
     resolver: zodResolver(profileSchema),
   });
 
