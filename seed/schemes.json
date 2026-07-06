@@ -1,0 +1,2025 @@
+[
+  {
+    "schemeId": "pm-kisan",
+    "name": "PM Kisan",
+    "slug": "pm-kisan",
+    "description": "PM Kisan is a Central Government scheme under Ministry of Agriculture, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Agriculture",
+    "ministry": "Ministry of Agriculture",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isFarmer",
+          "operator": "boolean",
+          "value": true,
+          "label": "Must be a registered farmer"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 200000,
+          "label": "Annual income below ₹2 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Records",
+      "Bank Passbook",
+      "Farmer Certificate"
+    ],
+    "benefits": [
+      "₹6,000/year in 3 installments",
+      "Direct bank transfer"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for PM Kisan?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/pm-kisan",
+    "helpline": "1800-111-555",
+    "icon": "🌾",
+    "logo": "🌾",
+    "colorTheme": "#16A34A",
+    "isActive": true
+  },
+  {
+    "schemeId": "ayushman-bharat",
+    "name": "Ayushman Bharat",
+    "slug": "ayushman-bharat",
+    "description": "Ayushman Bharat is a Central Government scheme under Ministry of Health, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Healthcare",
+    "ministry": "Ministry of Health",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 500000,
+          "label": "Annual income below ₹5 lakh"
+        },
+        {
+          "field": "category",
+          "operator": "in",
+          "value": [
+            "SC",
+            "ST",
+            "OBC",
+            "EWS",
+            "General"
+          ],
+          "label": "All categories eligible"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Ration Card",
+      "Income Certificate"
+    ],
+    "benefits": [
+      "Health cover up to ₹5 lakh/family",
+      "Cashless treatment at empanelled hospitals"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Ayushman Bharat?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/ayushman-bharat",
+    "helpline": "1800-111-555",
+    "icon": "🏥",
+    "logo": "🏥",
+    "colorTheme": "#DC2626",
+    "isActive": true
+  },
+  {
+    "schemeId": "pm-mudra",
+    "name": "PM Mudra Loan",
+    "slug": "pm-mudra-loan",
+    "description": "PM Mudra Loan is a Central Government scheme under Ministry of Finance, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Business & Startup",
+    "ministry": "Ministry of Finance",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isBusinessOwner",
+          "operator": "boolean",
+          "value": true,
+          "label": "Non-corporate small business"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 1000000,
+          "label": "Annual income below ₹10 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Registration",
+      "Bank Passbook"
+    ],
+    "benefits": [
+      "Loans up to ₹10 lakh",
+      "Shishu/Kishore/Tarun categories"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for PM Mudra Loan?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/pm-mudra",
+    "helpline": "1800-111-555",
+    "icon": "💰",
+    "logo": "💰",
+    "colorTheme": "#7C3AED",
+    "isActive": true
+  },
+  {
+    "schemeId": "startup-india",
+    "name": "Startup India",
+    "slug": "startup-india",
+    "description": "Startup India is a Central Government scheme under DPIIT, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Business & Startup",
+    "ministry": "DPIIT",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isBusinessOwner",
+          "operator": "boolean",
+          "value": true,
+          "label": "Registered startup entity"
+        },
+        {
+          "field": "age",
+          "operator": "lte",
+          "value": 50,
+          "label": "Entity less than 10 years old"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Business Registration",
+      "PAN Card",
+      "Aadhaar Card"
+    ],
+    "benefits": [
+      "Tax exemptions",
+      "Patent fee rebate",
+      "Fund of Funds access"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Startup India?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/startup-india",
+    "helpline": "1800-111-555",
+    "icon": "🚀",
+    "logo": "🚀",
+    "colorTheme": "#F59E0B",
+    "isActive": true
+  },
+  {
+    "schemeId": "stand-up-india",
+    "name": "Stand-Up India",
+    "slug": "stand-up-india",
+    "description": "Stand-Up India is a Central Government scheme under Ministry of Finance, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Business & Startup",
+    "ministry": "Ministry of Finance",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isBusinessOwner",
+          "operator": "boolean",
+          "value": true,
+          "label": "Entrepreneur from SC/ST/Woman category"
+        },
+        {
+          "field": "category",
+          "operator": "in",
+          "value": [
+            "SC",
+            "ST"
+          ],
+          "label": "SC/ST or Woman entrepreneur"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Caste Certificate",
+      "Business Plan",
+      "Bank Passbook"
+    ],
+    "benefits": [
+      "Bank loans ₹10 lakh to ₹1 crore",
+      "Composite loan for greenfield enterprise"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Stand-Up India?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/stand-up-india",
+    "helpline": "1800-111-555",
+    "icon": "🤝",
+    "logo": "🤝",
+    "colorTheme": "#0891B2",
+    "isActive": true
+  },
+  {
+    "schemeId": "pm-vishwakarma",
+    "name": "PM Vishwakarma",
+    "slug": "pm-vishwakarma",
+    "description": "PM Vishwakarma is a Central Government scheme under Ministry of MSME, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Skill Development",
+    "ministry": "Ministry of MSME",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "occupation",
+          "operator": "in",
+          "value": [
+            "Self-Employed",
+            "Daily Wage Worker"
+          ],
+          "label": "Traditional artisan/craftsman"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 300000,
+          "label": "Annual income below ₹3 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Skill Certificate",
+      "Bank Passbook"
+    ],
+    "benefits": [
+      "Skill training",
+      "Toolkit incentive ₹15,000",
+      "Collateral-free credit"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for PM Vishwakarma?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/pm-vishwakarma",
+    "helpline": "1800-111-555",
+    "icon": "🔨",
+    "logo": "🔨",
+    "colorTheme": "#EA580C",
+    "isActive": true
+  },
+  {
+    "schemeId": "nsp",
+    "name": "National Scholarship Portal",
+    "slug": "national-scholarship-portal",
+    "description": "National Scholarship Portal is a Central Government scheme under Ministry of Education, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Education",
+    "ministry": "Ministry of Education",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isStudent",
+          "operator": "boolean",
+          "value": true,
+          "label": "Currently enrolled student"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 800000,
+          "label": "Family income below ₹8 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "College ID",
+      "Income Certificate",
+      "Caste Certificate"
+    ],
+    "benefits": [
+      "Merit & means scholarships",
+      "Pre-matric and post-matric support"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for National Scholarship Portal?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/nsp",
+    "helpline": "1800-111-555",
+    "icon": "🎓",
+    "logo": "🎓",
+    "colorTheme": "#2563EB",
+    "isActive": true
+  },
+  {
+    "schemeId": "skill-india",
+    "name": "Skill India",
+    "slug": "skill-india",
+    "description": "Skill India is a Central Government scheme under Ministry of Skill Development, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Skill Development",
+    "ministry": "Ministry of Skill Development",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "age",
+          "operator": "gte",
+          "value": 15,
+          "label": "Age 15 years or above"
+        },
+        {
+          "field": "age",
+          "operator": "lte",
+          "value": 45,
+          "label": "Age below 45 years"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Free skill training",
+      "Industry-recognized certification",
+      "Placement assistance"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Skill India?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/skill-india",
+    "helpline": "1800-111-555",
+    "icon": "🛠️",
+    "logo": "🛠️",
+    "colorTheme": "#0D9488",
+    "isActive": true
+  },
+  {
+    "schemeId": "sukanya-samriddhi",
+    "name": "Sukanya Samriddhi Yojana",
+    "slug": "sukanya-samriddhi-yojana",
+    "description": "Sukanya Samriddhi Yojana is a Central Government scheme under Ministry of Finance, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Women & Child",
+    "ministry": "Ministry of Finance",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "gender",
+          "operator": "eq",
+          "value": "female",
+          "label": "Account for girl child"
+        },
+        {
+          "field": "age",
+          "operator": "lte",
+          "value": 10,
+          "label": "Girl child below 10 years"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Birth Certificate",
+      "Aadhaar Card",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "High interest rate ~8%",
+      "Tax benefits under 80C",
+      "Maturity at 21 years"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Sukanya Samriddhi Yojana?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/sukanya-samriddhi",
+    "helpline": "1800-111-555",
+    "icon": "👧",
+    "logo": "👧",
+    "colorTheme": "#DB2777",
+    "isActive": true
+  },
+  {
+    "schemeId": "atal-pension",
+    "name": "Atal Pension Yojana",
+    "slug": "atal-pension-yojana",
+    "description": "Atal Pension Yojana is a Central Government scheme under PFRDA, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Pension",
+    "ministry": "PFRDA",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "age",
+          "operator": "gte",
+          "value": 18,
+          "label": "Age 18-40 years"
+        },
+        {
+          "field": "age",
+          "operator": "lte",
+          "value": 40,
+          "label": "Age 18-40 years"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Mobile number"
+    ],
+    "benefits": [
+      "Guaranteed pension ₹1,000-5,000/month",
+      "Government co-contribution"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Atal Pension Yojana?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/atal-pension",
+    "helpline": "1800-111-555",
+    "icon": "👴",
+    "logo": "👴",
+    "colorTheme": "#4F46E5",
+    "isActive": true
+  },
+  {
+    "schemeId": "pm-awas",
+    "name": "PM Awas Yojana",
+    "slug": "pm-awas-yojana",
+    "description": "PM Awas Yojana is a Central Government scheme under Ministry of Housing, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Housing",
+    "ministry": "Ministry of Housing",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 600000,
+          "label": "Annual income below ₹6 lakh (EWS/LIG)"
+        },
+        {
+          "field": "category",
+          "operator": "in",
+          "value": [
+            "EWS",
+            "LIG",
+            "MIG",
+            "General",
+            "SC",
+            "ST",
+            "OBC"
+          ],
+          "label": "EWS/LIG/MIG categories"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Bank Passbook",
+      "Land Records"
+    ],
+    "benefits": [
+      "Interest subsidy on home loan",
+      "Affordable housing support"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for PM Awas Yojana?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/pm-awas",
+    "helpline": "1800-111-555",
+    "icon": "🏠",
+    "logo": "🏠",
+    "colorTheme": "#059669",
+    "isActive": true
+  },
+  {
+    "schemeId": "ujjwala",
+    "name": "Ujjwala Yojana",
+    "slug": "ujjwala-yojana",
+    "description": "Ujjwala Yojana is a Central Government scheme under Ministry of Petroleum, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Social Welfare",
+    "ministry": "Ministry of Petroleum",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "gender",
+          "operator": "eq",
+          "value": "female",
+          "label": "Woman from BPL household"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 150000,
+          "label": "BPL family income"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "BPL Ration Card",
+      "Bank Passbook"
+    ],
+    "benefits": [
+      "Free LPG connection",
+      "First refill and stove subsidy"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Ujjwala Yojana?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/ujjwala",
+    "helpline": "1800-111-555",
+    "icon": "🔥",
+    "logo": "🔥",
+    "colorTheme": "#E11D48",
+    "isActive": true
+  },
+  {
+    "schemeId": "digital-india",
+    "name": "Digital India",
+    "slug": "digital-india",
+    "description": "Digital India is a Central Government scheme under Ministry of Electronics & IT, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Financial Inclusion",
+    "ministry": "Ministry of Electronics & IT",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "age",
+          "operator": "gte",
+          "value": 14,
+          "label": "Indian citizen"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card"
+    ],
+    "benefits": [
+      "Digital literacy training",
+      "Access to e-governance services"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Digital India?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/digital-india",
+    "helpline": "1800-111-555",
+    "icon": "💻",
+    "logo": "💻",
+    "colorTheme": "#0284C7",
+    "isActive": true
+  },
+  {
+    "schemeId": "pmegp",
+    "name": "PMEGP",
+    "slug": "pmegp",
+    "description": "PMEGP is a Central Government scheme under Ministry of MSME, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Business & Startup",
+    "ministry": "Ministry of MSME",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isBusinessOwner",
+          "operator": "boolean",
+          "value": true,
+          "label": "New micro enterprise"
+        },
+        {
+          "field": "age",
+          "operator": "gte",
+          "value": 18,
+          "label": "Age 18 years or above"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Project Report",
+      "Caste Certificate",
+      "EDP Certificate"
+    ],
+    "benefits": [
+      "Margin money subsidy 15-35%",
+      "Micro enterprise setup support"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for PMEGP?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/pmegp",
+    "helpline": "1800-111-555",
+    "icon": "🏭",
+    "logo": "🏭",
+    "colorTheme": "#9333EA",
+    "isActive": true
+  },
+  {
+    "schemeId": "pm-fasal-bima",
+    "name": "PM Fasal Bima Yojana",
+    "slug": "pm-fasal-bima-yojana",
+    "description": "PM Fasal Bima Yojana is a Central Government scheme under Ministry of Agriculture, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Agriculture",
+    "ministry": "Ministry of Agriculture",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isFarmer",
+          "operator": "boolean",
+          "value": true,
+          "label": "Farmer with insurable crop"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Records",
+      "Bank Passbook",
+      "Sowing Certificate"
+    ],
+    "benefits": [
+      "Crop insurance at low premium",
+      "Coverage for natural calamities"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for PM Fasal Bima Yojana?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/pm-fasal-bima",
+    "helpline": "1800-111-555",
+    "icon": "🌱",
+    "logo": "🌱",
+    "colorTheme": "#65A30D",
+    "isActive": true
+  },
+  {
+    "schemeId": "e-shram",
+    "name": "E-Shram Portal",
+    "slug": "e-shram-portal",
+    "description": "E-Shram Portal is a Central Government scheme under Ministry of Labour, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Employment",
+    "ministry": "Ministry of Labour",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "occupation",
+          "operator": "in",
+          "value": [
+            "Daily Wage Worker",
+            "Self-Employed",
+            "Unemployed"
+          ],
+          "label": "Unorganized sector worker"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 300000,
+          "label": "Annual income below ₹3 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Mobile number"
+    ],
+    "benefits": [
+      "Universal Account Number",
+      "Accident insurance ₹2 lakh",
+      "Social security benefits"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for E-Shram Portal?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/e-shram",
+    "helpline": "1800-111-555",
+    "icon": "👷",
+    "logo": "👷",
+    "colorTheme": "#CA8A04",
+    "isActive": true
+  },
+  {
+    "schemeId": "nulm",
+    "name": "NULM",
+    "slug": "nulm",
+    "description": "NULM is a Central Government scheme under Ministry of Housing & Urban Affairs, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Social Welfare",
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 200000,
+          "label": "Urban poor household"
+        },
+        {
+          "field": "occupation",
+          "operator": "in",
+          "value": [
+            "Self-Employed",
+            "Daily Wage Worker",
+            "Unemployed"
+          ],
+          "label": "Urban poor/self-employed"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Residence Certificate"
+    ],
+    "benefits": [
+      "Self-employment programme",
+      "Skill training",
+      "Shelters for urban homeless"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for NULM?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/nulm",
+    "helpline": "1800-111-555",
+    "icon": "🏙️",
+    "logo": "🏙️",
+    "colorTheme": "#6366F1",
+    "isActive": true
+  },
+  {
+    "schemeId": "maharashtra-scholarship",
+    "name": "Maharashtra State Scholarship",
+    "slug": "maharashtra-state-scholarship",
+    "description": "Maharashtra State Scholarship is a State Government scheme under Maharashtra Education Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Education",
+    "ministry": "Maharashtra Education Dept",
+    "level": "state",
+    "applicableStates": [
+      "Maharashtra"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isStudent",
+          "operator": "boolean",
+          "value": true,
+          "label": "Maharashtra domicile student"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Maharashtra",
+          "label": "Maharashtra resident"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 800000,
+          "label": "Income below ₹8 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "State scholarship for SC/ST/OBC/EBC",
+      "Fee reimbursement"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Maharashtra State Scholarship?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/maharashtra-scholarship",
+    "helpline": "1800-111-555",
+    "icon": "📚",
+    "logo": "📚",
+    "colorTheme": "#FF6B35",
+    "isActive": true
+  },
+  {
+    "schemeId": "karnataka-raitha",
+    "name": "Karnataka Raitha Siri",
+    "slug": "karnataka-raitha-siri",
+    "description": "Karnataka Raitha Siri is a State Government scheme under Karnataka Agriculture Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Agriculture",
+    "ministry": "Karnataka Agriculture Dept",
+    "level": "state",
+    "applicableStates": [
+      "Karnataka"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isFarmer",
+          "operator": "boolean",
+          "value": true,
+          "label": "Karnataka farmer"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Karnataka",
+          "label": "Karnataka resident"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "₹4,000/acre support",
+      "Crop diversification incentive"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Karnataka Raitha Siri?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/karnataka-raitha",
+    "helpline": "1800-111-555",
+    "icon": "🚜",
+    "logo": "🚜",
+    "colorTheme": "#FFD700",
+    "isActive": true
+  },
+  {
+    "schemeId": "tamil-nadu-women",
+    "name": "Tamil Nadu Women Welfare",
+    "slug": "tamil-nadu-women-welfare",
+    "description": "Tamil Nadu Women Welfare is a State Government scheme under Tamil Nadu Social Welfare, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Women & Child",
+    "ministry": "Tamil Nadu Social Welfare",
+    "level": "state",
+    "applicableStates": [
+      "Tamil Nadu"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "gender",
+          "operator": "eq",
+          "value": "female",
+          "label": "Woman resident"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Tamil Nadu",
+          "label": "Tamil Nadu resident"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 250000,
+          "label": "Income below ₹2.5 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Marriage assistance",
+      "Self-help group support",
+      "Skill training"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Tamil Nadu Women Welfare?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/tamil-nadu-women",
+    "helpline": "1800-111-555",
+    "icon": "👩",
+    "logo": "👩",
+    "colorTheme": "#E91E63",
+    "isActive": true
+  },
+  {
+    "schemeId": "up-farmer-pension",
+    "name": "UP Farmer Pension",
+    "slug": "up-farmer-pension",
+    "description": "UP Farmer Pension is a State Government scheme under Uttar Pradesh Agriculture Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Agriculture",
+    "ministry": "Uttar Pradesh Agriculture Dept",
+    "level": "state",
+    "applicableStates": [
+      "Uttar Pradesh"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isFarmer",
+          "operator": "boolean",
+          "value": true,
+          "label": "Small/marginal farmer"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Uttar Pradesh",
+          "label": "UP resident"
+        },
+        {
+          "field": "age",
+          "operator": "gte",
+          "value": 60,
+          "label": "Senior citizen farmer"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Monthly pension ₹500",
+      "Direct bank transfer"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for UP Farmer Pension?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/up-farmer-pension",
+    "helpline": "1800-111-555",
+    "icon": "🌾",
+    "logo": "🌾",
+    "colorTheme": "#FF9800",
+    "isActive": true
+  },
+  {
+    "schemeId": "delhi-electricity",
+    "name": "Delhi Electricity Subsidy",
+    "slug": "delhi-electricity-subsidy",
+    "description": "Delhi Electricity Subsidy is a State Government scheme under Delhi Government, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Social Welfare",
+    "ministry": "Delhi Government",
+    "level": "state",
+    "applicableStates": [
+      "Delhi"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Delhi",
+          "label": "Delhi resident"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 300000,
+          "label": "Income below ₹3 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Free/subsidized electricity up to 200 units",
+      "Zero bill for low consumption"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Delhi Electricity Subsidy?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/delhi-electricity",
+    "helpline": "1800-111-555",
+    "icon": "⚡",
+    "logo": "⚡",
+    "colorTheme": "#2196F3",
+    "isActive": true
+  },
+  {
+    "schemeId": "kerala-health",
+    "name": "Kerala Karunya Health",
+    "slug": "kerala-karunya-health",
+    "description": "Kerala Karunya Health is a State Government scheme under Kerala Health Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Healthcare",
+    "ministry": "Kerala Health Dept",
+    "level": "state",
+    "applicableStates": [
+      "Kerala"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Kerala",
+          "label": "Kerala resident"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 300000,
+          "label": "Income below ₹3 lakh"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Free treatment for serious illnesses",
+      "Coverage up to ₹3 lakh"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Kerala Karunya Health?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/kerala-health",
+    "helpline": "1800-111-555",
+    "icon": "❤️",
+    "logo": "❤️",
+    "colorTheme": "#00897B",
+    "isActive": true
+  },
+  {
+    "schemeId": "gujarat-kisan",
+    "name": "Gujarat Kisan Sarvoday",
+    "slug": "gujarat-kisan-sarvoday",
+    "description": "Gujarat Kisan Sarvoday is a State Government scheme under Gujarat Agriculture Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Agriculture",
+    "ministry": "Gujarat Agriculture Dept",
+    "level": "state",
+    "applicableStates": [
+      "Gujarat"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isFarmer",
+          "operator": "boolean",
+          "value": true,
+          "label": "Gujarat farmer"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Gujarat",
+          "label": "Gujarat resident"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "₹4,000/year per farmer family",
+      "Additional crop support"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Gujarat Kisan Sarvoday?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/gujarat-kisan",
+    "helpline": "1800-111-555",
+    "icon": "🌽",
+    "logo": "🌽",
+    "colorTheme": "#FF5722",
+    "isActive": true
+  },
+  {
+    "schemeId": "rajasthan-girl-child",
+    "name": "Rajasthan Girl Child Scheme",
+    "slug": "rajasthan-girl-child-scheme",
+    "description": "Rajasthan Girl Child Scheme is a State Government scheme under Rajasthan Women & Child Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Women & Child",
+    "ministry": "Rajasthan Women & Child Dept",
+    "level": "state",
+    "applicableStates": [
+      "Rajasthan"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "gender",
+          "operator": "eq",
+          "value": "female",
+          "label": "Girl child"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Rajasthan",
+          "label": "Rajasthan resident"
+        },
+        {
+          "field": "age",
+          "operator": "lte",
+          "value": 18,
+          "label": "Girl below 18 years"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Birth incentive",
+      "Education scholarship",
+      "Marriage assistance at 18"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Rajasthan Girl Child Scheme?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/rajasthan-girl-child",
+    "helpline": "1800-111-555",
+    "icon": "🎀",
+    "logo": "🎀",
+    "colorTheme": "#9C27B0",
+    "isActive": true
+  },
+  {
+    "schemeId": "wb-kanyashree",
+    "name": "WB Kanyashree Prakalpa",
+    "slug": "wb-kanyashree-prakalpa",
+    "description": "WB Kanyashree Prakalpa is a State Government scheme under West Bengal Women Development, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Women & Child",
+    "ministry": "West Bengal Women Development",
+    "level": "state",
+    "applicableStates": [
+      "West Bengal"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "gender",
+          "operator": "eq",
+          "value": "female",
+          "label": "Girl student"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "West Bengal",
+          "label": "West Bengal resident"
+        },
+        {
+          "field": "isStudent",
+          "operator": "boolean",
+          "value": true,
+          "label": "Enrolled in school/college"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Annual scholarship ₹750-1000",
+      "One-time grant at 18"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for WB Kanyashree Prakalpa?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/wb-kanyashree",
+    "helpline": "1800-111-555",
+    "icon": "📖",
+    "logo": "📖",
+    "colorTheme": "#3F51B5",
+    "isActive": true
+  },
+  {
+    "schemeId": "punjab-farmer-debt",
+    "name": "Punjab Farmer Debt Waiver",
+    "slug": "punjab-farmer-debt-waiver",
+    "description": "Punjab Farmer Debt Waiver is a State Government scheme under Punjab Agriculture Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Agriculture",
+    "ministry": "Punjab Agriculture Dept",
+    "level": "state",
+    "applicableStates": [
+      "Punjab"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isFarmer",
+          "operator": "boolean",
+          "value": true,
+          "label": "Indebted farmer"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Punjab",
+          "label": "Punjab resident"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 500000,
+          "label": "Small farmer income criteria"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Crop loan waiver up to ₹2 lakh",
+      "Fresh credit access"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Punjab Farmer Debt Waiver?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/punjab-farmer-debt",
+    "helpline": "1800-111-555",
+    "icon": "🌾",
+    "logo": "🌾",
+    "colorTheme": "#FFC107",
+    "isActive": true
+  },
+  {
+    "schemeId": "bihar-student-credit",
+    "name": "Bihar Student Credit Card",
+    "slug": "bihar-student-credit-card",
+    "description": "Bihar Student Credit Card is a State Government scheme under Bihar Education Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Education",
+    "ministry": "Bihar Education Dept",
+    "level": "state",
+    "applicableStates": [
+      "Bihar"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isStudent",
+          "operator": "boolean",
+          "value": true,
+          "label": "Bihar domicile student"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Bihar",
+          "label": "Bihar resident"
+        },
+        {
+          "field": "age",
+          "operator": "lte",
+          "value": 25,
+          "label": "Age below 25 years"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "Education loan up to ₹4 lakh",
+      "Low interest rate",
+      "No collateral up to ₹4 lakh"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Bihar Student Credit Card?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/bihar-student-credit",
+    "helpline": "1800-111-555",
+    "icon": "💳",
+    "logo": "💳",
+    "colorTheme": "#795548",
+    "isActive": true
+  },
+  {
+    "schemeId": "telangana-rythu",
+    "name": "Telangana Rythu Bandhu",
+    "slug": "telangana-rythu-bandhu",
+    "description": "Telangana Rythu Bandhu is a State Government scheme under Telangana Agriculture Dept, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Agriculture",
+    "ministry": "Telangana Agriculture Dept",
+    "level": "state",
+    "applicableStates": [
+      "Telangana"
+    ],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isFarmer",
+          "operator": "boolean",
+          "value": true,
+          "label": "Telangana farmer with land"
+        },
+        {
+          "field": "state",
+          "operator": "eq",
+          "value": "Telangana",
+          "label": "Telangana resident"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Passport Photo"
+    ],
+    "benefits": [
+      "₹5,000/acre per season",
+      "Investment support for crops"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Telangana Rythu Bandhu?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/telangana-rythu",
+    "helpline": "1800-111-555",
+    "icon": "🌻",
+    "logo": "🌻",
+    "colorTheme": "#CDDC39",
+    "isActive": true
+  },
+  {
+    "schemeId": "senior-citizen-pension",
+    "name": "Indira Gandhi National Old Age Pension",
+    "slug": "indira-gandhi-national-old-age-pension",
+    "description": "Indira Gandhi National Old Age Pension is a Central Government scheme under Ministry of Rural Development, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Senior Citizens",
+    "ministry": "Ministry of Rural Development",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isSeniorCitizen",
+          "operator": "boolean",
+          "value": true,
+          "label": "Age 60 years or above"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 100000,
+          "label": "BPL category income"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Age Proof",
+      "Bank Passbook",
+      "BPL Certificate"
+    ],
+    "benefits": [
+      "Monthly pension ₹200-500",
+      "State top-up additional amount"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for Indira Gandhi National Old Age Pension?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/senior-citizen-pension",
+    "helpline": "1800-111-555",
+    "icon": "🧓",
+    "logo": "🧓",
+    "colorTheme": "#607D8B",
+    "isActive": true
+  },
+  {
+    "schemeId": "disability-pension",
+    "name": "National Disability Pension",
+    "slug": "national-disability-pension",
+    "description": "National Disability Pension is a Central Government scheme under Ministry of Social Justice, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Social Welfare",
+    "ministry": "Ministry of Social Justice",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "hasDisability",
+          "operator": "boolean",
+          "value": true,
+          "label": "Person with disability (40%+)"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 150000,
+          "label": "BPL family income"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Disability Certificate",
+      "Income Certificate",
+      "Bank Passbook"
+    ],
+    "benefits": [
+      "Monthly pension ₹300",
+      "Additional state benefits"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for National Disability Pension?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/disability-pension",
+    "helpline": "1800-111-555",
+    "icon": "♿",
+    "logo": "♿",
+    "colorTheme": "#009688",
+    "isActive": true
+  },
+  {
+    "schemeId": "widow-pension",
+    "name": "National Widow Pension",
+    "slug": "national-widow-pension",
+    "description": "National Widow Pension is a Central Government scheme under Ministry of Rural Development, designed to provide targeted benefits to eligible citizens across India.",
+    "category": "Women & Child",
+    "ministry": "Ministry of Rural Development",
+    "level": "central",
+    "applicableStates": [],
+    "eligibilityRules": {
+      "conditions": [
+        {
+          "field": "isWidow",
+          "operator": "boolean",
+          "value": true,
+          "label": "Widow aged 40-79 years"
+        },
+        {
+          "field": "gender",
+          "operator": "eq",
+          "value": "female",
+          "label": "Woman"
+        },
+        {
+          "field": "annualIncome",
+          "operator": "lte",
+          "value": 100000,
+          "label": "BPL category"
+        }
+      ],
+      "logic": "AND"
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Husband Death Certificate",
+      "Income Certificate"
+    ],
+    "benefits": [
+      "Monthly pension ₹300",
+      "State supplementary amount"
+    ],
+    "applicationProcess": [
+      "Visit official portal or nearest CSC",
+      "Register with Aadhaar-linked mobile",
+      "Fill application form",
+      "Upload required documents",
+      "Submit and track status online"
+    ],
+    "approvalTime": "15-30 days",
+    "faqs": [
+      {
+        "question": "Who can apply for National Widow Pension?",
+        "answer": "Citizens meeting the eligibility criteria listed on the official portal."
+      },
+      {
+        "question": "How to check application status?",
+        "answer": "Track status on the official portal using your application ID."
+      }
+    ],
+    "officialWebsite": "https://www.india.gov.in/scheme/widow-pension",
+    "helpline": "1800-111-555",
+    "icon": "🕊️",
+    "logo": "🕊️",
+    "colorTheme": "#673AB7",
+    "isActive": true
+  }
+]
