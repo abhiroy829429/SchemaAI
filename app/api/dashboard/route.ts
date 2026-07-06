@@ -30,7 +30,14 @@ export async function GET() {
           schemeId: s.schemeId,
           name: s.name,
           category: s.category,
-          eligibilityRules: s.eligibilityRules,
+          eligibilityRules: {
+            conditions: s.eligibilityRules.conditions.map((c) => ({
+              ...c,
+              operator: c.operator as "eq" | "neq" | "gt" | "gte" | "lt" | "lte" | "in" | "nin" | "contains" | "boolean",
+              value: c.value as unknown as string | number | boolean | string[],
+            })),
+            logic: s.eligibilityRules.logic,
+          },
           requiredDocuments: s.requiredDocuments,
         }))
       );
